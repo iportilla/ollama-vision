@@ -1,5 +1,5 @@
 #FROM python:3.11-slim
-FROM python:3.10-slim
+FROM python:3.14.0rc1-slim
 RUN pip install streamlit
 WORKDIR /app
 COPY requirements.txt ./
